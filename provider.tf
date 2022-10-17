@@ -1,5 +1,5 @@
 provider "aws" {
-    shared_config_files      = ["/Users/tf_user/.aws/conf"]
-    shared_credentials_files = ["/Users/tf_user/.aws/creds"]
-    region = "us-east-1"
+  region     = "AWS_REGION"
+  access_key = "AWS_ACCESS_KEY_ID"
+  secret_key = "AWS_SECRET_ACCESS_KEY"
 }
